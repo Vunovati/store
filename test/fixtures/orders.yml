@@ -1,0 +1,23 @@
+# == Schema Information
+#
+# Table name: orders
+#
+#  id         :integer         not null, primary key
+#  buyer_id   :integer
+#  total      :integer
+#  active     :boolean
+#  created_at :datetime
+#  updated_at :datetime
+#
+
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  buyer_id: 1
+  total: 1
+  active: 
+
+two:
+  buyer_id: 1
+  total: 1
+  active: 
